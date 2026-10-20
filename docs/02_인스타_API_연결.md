@@ -36,7 +36,7 @@
 토큰은 **비밀번호와 같아요.** 클로드 대화창·카톡·스크린샷에 절대 붙이지 마세요.
 터미널 **새 탭**(`command + T`)을 열고:
 ```bash
-cd ~/Desktop/instatoon
+cd ~/Desktop/instatoon-live
 bash tools/set_key.sh IG_ACCESS_TOKEN
 ```
 붙여 넣고 엔터 — 글자가 화면에 안 보이는 게 정상이에요(발표·녹화 중에도 안전). 끝 4자리만 보여 줘요.
