@@ -1,0 +1,55 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(python3:*)",
+      "Bash(.venv/bin/python:*)",
+      "Bash(.venv/bin/python3:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(ffprobe:*)",
+      "Bash(ls:*)",
+      "Bash(open:*)",
+      "Bash(bash setup.sh:*)",
+      "Bash(bash tools/check_leaks.sh:*)",
+      "Bash(bash tools/set_key.sh:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.local)",
+      "Bash(cat .env*)",
+      "Bash(*printenv*)",
+      "Bash(env)",
+      "Bash(git push:*)"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay /System/Library/Sounds/Glass.aiff >/dev/null 2>&1 &"
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "python3 .claude/statusline.py"
+  },
+  "extraKnownMarketplaces": {
+    "harness-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "revfactory/harness"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "harness@harness-marketplace": true
+  }
+}

@@ -1,0 +1,158 @@
+{
+ "profile": "기본",
+ "mood": "",
+ "bgm_vol": 0.5,
+ "cuts": [
+  {
+   "panel": 1,
+   "dur": 3.0,
+   "text_at": 0.0,
+   "chars": 15,
+   "words": [],
+   "trans": "fade",
+   "fx": {
+    "zoom": 0.035,
+    "bursts": [
+     0.1
+    ]
+   },
+   "sfx": [
+    [
+     "pop",
+     0.05,
+     0.8
+    ]
+   ]
+  },
+  {
+   "panel": 2,
+   "dur": 2.7,
+   "text_at": 0.5,
+   "chars": 15,
+   "words": [
+    "띵띵띵"
+   ],
+   "trans": "swipe",
+   "fx": {
+    "zoom": 0.035,
+    "bursts": [
+     0.5
+    ]
+   },
+   "sfx": [
+    [
+     "ding",
+     0.5,
+     0.8
+    ]
+   ]
+  },
+  {
+   "panel": 3,
+   "dur": 2.4,
+   "text_at": 0.5,
+   "chars": 5,
+   "words": [
+    "탁"
+   ],
+   "trans": "swipe",
+   "fx": {
+    "zoom": 0.035,
+    "bursts": [
+     0.5
+    ]
+   },
+   "sfx": [
+    [
+     "tap",
+     0.5,
+     0.8
+    ]
+   ]
+  },
+  {
+   "panel": 4,
+   "dur": 2.4,
+   "text_at": 0.5,
+   "chars": 5,
+   "words": [
+    "헉!!"
+   ],
+   "trans": "swipe",
+   "fx": {
+    "zoom": 0.035,
+    "punch": 0.08
+   },
+   "sfx": [
+    [
+     "boing",
+     0.5,
+     0.8
+    ]
+   ]
+  },
+  {
+   "panel": 5,
+   "dur": 2.4,
+   "text_at": 0.5,
+   "chars": 9,
+   "words": [
+    "후다닥",
+    "(말:늦었다 늦었)"
+   ],
+   "trans": "swipe",
+   "fx": {
+    "zoom": 0.035,
+    "shake": [
+     3,
+     1.0
+    ]
+   },
+   "sfx": [
+    [
+     "whoosh",
+     0.5,
+     0.9
+    ],
+    [
+     "babble",
+     0.6,
+     0.6
+    ]
+   ]
+  },
+  {
+   "panel": 6,
+   "dur": 2.4,
+   "text_at": 0.5,
+   "chars": 10,
+   "words": [
+    "띠용"
+   ],
+   "trans": "swipe",
+   "fx": {
+    "zoom": 0.035,
+    "punch": 0.06
+   },
+   "sfx": [
+    [
+     "boing",
+     0.5,
+     0.9
+    ]
+   ]
+  },
+  {
+   "panel": 7,
+   "dur": 3.1,
+   "text_at": 0.5,
+   "chars": 19,
+   "words": [],
+   "trans": "fade",
+   "fx": {
+    "zoom": 0.035
+   },
+   "sfx": []
+  }
+ ]
+}

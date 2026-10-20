@@ -1,0 +1,11 @@
+{
+  "name": "instatoon-starter",
+  "private": true,
+  "description": "대본 → 인스타툰 컷 → 릴스 → 인스타 업로드까지, Claude Code와 함께 쓰는 스타터",
+  "scripts": {
+    "sample": "node samples/예시편/EP00_샘플/build.js && node samples/엔진/render.js samples/예시편/EP00_샘플"
+  },
+  "dependencies": {
+    "puppeteer": "^23.11.1"
+  }
+}

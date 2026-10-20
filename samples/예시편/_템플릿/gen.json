@@ -1,0 +1,8 @@
+{
+  "_설명": "AI 작화 설정. ref = 캐릭터 참고 그림(이 편 폴더 기준, 비우면 samples/에셋/character/character.png). anchor = 같은 장소를 이어 그릴 컷(「s5」를 「s2」와 같은 방으로). 앵커는 카메라까지 복사하니 꼭 필요한 한두 컷만.",
+  "ref": "",
+  "anchor": {},
+  "bottom_caption": [],
+  "wardrobe_default": "",
+  "wardrobe": {}
+}

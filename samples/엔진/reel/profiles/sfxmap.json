@@ -1,0 +1,31 @@
+{
+ "_설명": "그림 속 효과음 글자(sfx('…'))에 이 글자가 들어 있으면 → [소리 이름, 볼륨, 화면 효과]. 위에서부터 먼저 맞는 것 하나. 화면 효과: punch(확 커짐)·flash(번쩍)·shake[세기,초]·burst(톡 튐)·pulse(두근)·zoom",
+ "cover": ["pop", 0.8, {"burst": true}],
+ "map": [
+  ["쾅", "thud", 1.0, {"flash": 0.12, "shake": [10, 0.4]}],
+  ["쿵", "thud", 1.0, {"punch": 0.08, "shake": [6, 0.3]}],
+  ["털썩", "thud", 0.8, {"shake": [4, 0.3]}],
+  ["띵동", "dingdong", 0.8, {"burst": true}],
+  ["띵", "ding", 0.8, {"burst": true}],
+  ["반짝", "sparkle", 0.8, {}],
+  ["두근", "pop", 0.5, {"pulse": true}],
+  ["휙", "whoosh", 0.9, {"punch": 0.05}],
+  ["후다닥", "whoosh", 0.9, {"shake": [3, 0.5]}],
+  ["총총", "tap", 0.6, {}],
+  ["타닥", "tap", 0.8, {}],
+  ["탁", "tap", 0.8, {"burst": true}],
+  ["띠용", "boing", 0.9, {"punch": 0.06}],
+  ["헉", "boing", 0.8, {"punch": 0.08}],
+  ["철렁", "drop", 0.9, {"zoom": 0.06}],
+  ["축", "drop", 0.8, {}],
+  ["톡", "pop", 0.8, {"burst": true}],
+  ["뿅", "pop", 0.9, {"burst": true}]
+ ],
+ "text_map": [],
+ "also_map": [],
+ "babble": ["babble", "babble_fast", "babble_low"],
+ "babble_vol": 0.6,
+ "senior_markers": ["선배", "쌤", "선생님"],
+ "dip_sounds": ["drop"],
+ "white_sounds": ["sparkle"]
+}

@@ -1,0 +1,31 @@
+# 비밀 — 절대 올리지 않음
+.env
+.env.*
+!.env.example
+*.pem
+*token*.json
+*secret*.json
+.claude/settings.local.json
+
+# 설치물·캐시
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# 작업 산출물 — 예시편 카드만 예외로 올림
+**/instagram_cards.html
+**/_reel_fill/
+**/reel.json
+**/reel.auto.json
+**/out/
+_작화비용.log
+_sheet.png
+_zoom.png
+!samples/예시편/EP00_샘플/reel.json
+samples/예시편/EP00_샘플/reel/_*
+
+# 내가 만든 편(episodes/)은 기본으로 안 올림 — 올리고 싶으면 이 줄을 지우세요
+episodes/
+**/올리기/
